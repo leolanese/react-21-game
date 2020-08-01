@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  height: 100%;
+  background-image: url("./img/backjack.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+img {
+  width: 5em;
+  height: 5em;
+  margin: 10px;
+}
+
+.card {
+  width: 8em;
+  height: 13em;
+  margin: 6px;
+  justify-content: space-between;
+  padding: 10px;
+  -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+  -ms-transform: rotate(20deg);
+  transform: rotate(-15deg);
+  background: #fff;
+  border: 1px solid #000;
+  margin: -2px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.player {
+  display: inline-flex;
+  left: -24%;
+  position: relative;
+}
+
+.hit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5em;
+  height: 5em;
+  background-color: limegreen;
+  border-radius: 10px;
+}
+
+.stick {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 5em;
+  height: 5em;
+  background-color: indianred;
+  border-radius: 10px;
+}
+
+.p2 {
+  display: inline-flex;
+}
+
+.new-game {
+  height: 5em;
+  width: 20em;
+  border-radius: 15px;
+}
+
+.result {
+  -webkit-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.win {
+  background-color: aquamarine;
+}
+
+.result > p {
+  font-size: 4em;
+  position: relative;
+}
+
+.lose {
+  background-color: indianred;
+}
+
+.tie {
+  background-color: white;
+}
+
+.house {
+  display: inline-flex;
+  left: 24%;
+  position: relative;
+}
+
+.top {
+  margin: 0;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.number {
+  margin: 0;
+  margin-right: 5px;
+  text-align: right;
+}
+
+button {
+  margin: 8px;
+}
